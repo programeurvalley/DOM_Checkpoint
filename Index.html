@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon"  href="img/ico/favicon.ico" >
+        <title>DOM Checkpoint</title>
+        <link rel="stylesheet" href="css/style.css" >
+    </head>
+    <body>
+        <h1>Store</h1>
+        <div class="content">
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <div class="item">
+                        <p>Items</p>
+                        <hr>
+                        <img src="img/product/FIFA-22-PS4.jpg" alt="FIFA 22 PS4 Cover" class="img-shop">
+                        <hr>
+                        <p class="item-title">FIFA 22 - PS4</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <p>Status</p>
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/shaped_heart.PNG" class="m-sh" id="h1" onclick="ChangeImg(this.id)"/>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col-special">
+                    <div class="item">
+                        <p>Quantity</p>
+                        <hr>
+                        <div class="cont m-p" >
+                            <button id="a1" onclick="Inc(this.id)">+</button>
+                            <span id="q1" >0</span>
+                            <button id="d1" onclick="Dec(this.id)">-</button>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <p>Price</p>
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="p1">59.99$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <p>Delete</p>
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/del.ico"  height="25px"  width="25px" class="m-es" id="i1" onclick="Del(this.id)">
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <p>Total</p>
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="t1" >00.00$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="shop-card" >
+                        <div id="card-total"><p id="total">Total : </p><label id="tvalue">0.00$</label></div>
+                        <button class="green-but" onclick="Buy()">Buy it</button>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <img src="img/product/The-Last-of-Use-Part2.jpg" alt="The Last of Use Part II Cover" class="img-shop">
+                        <hr>
+                        <p class="item-title">The Last of Use - Part II - PS4</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/shaped_heart.PNG" class="m-sh" id="h2" onclick="ChangeImg(this.id)"/>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col-special">
+                    <div class="item">
+                        <hr>
+                        <div class="cont m-p">
+                            <button id="a2" onclick="Inc(this.id)">+</button>
+                            <span id="q2" >0</span>
+                            <button id="d2" onclick="Dec(this.id)">-</button>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="p2">39.99$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/del.ico" height="25px"  width="25px" class="m-es" id="i2" onclick="Del(this.id)">
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="t2" >00.00$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <img src="img/product/Call-of-Duty-Modern-Warfare-PS4.jpg" alt="Call of Duty Modern Warfare Cover" class="img-shop">
+                        <hr>
+                        <p class="item-title">Call of Duty Modern Warfare - PS4</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/shaped_heart.PNG" class="m-sh" id="h3" onclick="ChangeImg(this.id)"/>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col-special">
+                    <div class="item">
+                        <hr>
+                        <div class="cont m-p">
+                            <button id="a3" onclick="Inc(this.id)">+</button>
+                            <span id="q3" >0</span>
+                            <button id="d3" onclick="Dec(this.id)">-</button>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="p3" >19.79$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/del.ico" height="25px"  width="25px" class="m-es" id="i3" onclick="Del(this.id)">
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="t3" >00.00$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <img src="img/product/GTA5.jpg" alt="Grand Theft Auto V Cover" class="img-shop">
+                        <hr>
+                        <p class="item-title">Grand Theft Auto V - PS4</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/shaped_heart.PNG" class="m-sh" id="h4" onclick="ChangeImg(this.id)"/>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col-special">
+                    <div class="item">
+                        <hr>
+                        <div class="cont m-p">
+                            <button id="a4" onclick="Inc(this.id)">+</button>
+                            <span id="q4" >0</span>
+                            <button id="d4" onclick="Dec(this.id)">-</button>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="p4" >39.99$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/del.ico" height="25px"  width="25px" class="m-es" id="i4" onclick="Del(this.id)">
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="t4" >00.00$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <img src="img/product/Battlefield-2042-PS4.jpg" alt="Battlefield 2042 Cover" class="img-shop">
+                        <hr>
+                        <p class="item-title">Battlefield 2042 - PS4</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/shaped_heart.PNG" class="m-sh" id="h5" onclick="ChangeImg(this.id)"/>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col-special">
+                    <div class="item">
+                        <hr>
+                        <div class="cont m-p">
+                            <button id="a5" onclick="Inc(this.id)">+</button>
+                            <span id="q5" >0</span>
+                            <button id="d5" onclick="Dec(this.id)">-</button>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="p5" >59.99$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <img src="img/ico/del.ico" height="25px"  width="25px" class="m-es" id="i5" onclick="Del(this.id)">
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="item">
+                        <hr>
+                        <div class="cont">
+                            <label style="margin-bottom : 3px" id="t5" >00.00$</label>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+
+        <script src="js/script.js" ></script>
+    </body>
+</html>

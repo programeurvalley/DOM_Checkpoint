@@ -1,0 +1,126 @@
+.row{
+    display : flex;
+    text-align: center;
+}
+
+.img-shop{
+    width: 100%;
+}
+
+.item{
+    width: 100%;
+    margin: 5px;
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.col{
+    width: 10%;
+    margin : 5px;
+}
+
+.col-special{
+    width: 15%;
+    margin : 5px;
+}
+
+.item-title{
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.cont{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    margin-bottom: 60%;
+}
+
+#q1 , #q2 , #q3 , #q4 , #q5 {
+    width: 25px;
+    text-align: center;
+}
+
+.m-s{
+    margin-bottom: 35%;
+}
+
+.m-es{
+    margin-bottom: 15%;
+}
+
+.m-p{
+    margin-top : 38%;
+    margin-bottom: 47%;
+}
+
+.m-sh{
+    margin-top : 5%;
+    margin-bottom: 8%;
+}
+
+#f1 , #f2 , #f3 , #f4 , #f5 {
+    display: none;
+} 
+
+label {
+    width: 25px;
+    display: flex;
+    padding: 10px 15px 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black; 
+    }
+
+.shop-card{
+    width: 30%;
+    height: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    position: fixed;
+    margin-left: 70%;
+    }
+
+.green-but{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color : white;
+    width: 90%;
+    height: 10%;
+}
+    
+#card-total{
+    display: flex;
+    width: 90%;
+    height: 10%;
+    margin: 5%;
+    border-radius: 5px;
+}
+
+#total{
+    font-size: large;
+    font-weight: 800;
+    margin: 5px;
+    margin-right: 20px;
+
+    margin-left: 15px;
+}
+
+#tvalue{
+    font-size: large;
+    font-weight: 800;
+    margin: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+    color: green;
+}
+
+
+
